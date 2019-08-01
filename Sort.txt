@@ -1,0 +1,31 @@
+> 				Create a 0 at the beginning
+,>,>,>,>,		Read Input
+>+				Create result field
+>>>+++++		Create count field (after two zeros)
+
+START MAIN LOOP
+[
+	Stage 1: Return to inputs and decrement All
+	<<<<-<-<-<-<-
+	
+	Stage 2: Move forward until 0 encountered
+	[
+		>
+	]
+	
+	Stage 3: Figure out if we are at the end
+	> 			Move 1 step forward
+	[			This only runs if we are NOT
+				at the end (since it is nonzero)
+		<-		Step back and break that value
+		[
+			>	Find the end of the list
+		]
+		<.		Step back and print the result
+		>>>-	Move to count field and decrement
+		<		Position on 0 to break loop
+	]
+	
+	<<+			Increment the result field
+	>>>			Return to count field
+]
