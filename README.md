@@ -1,3 +1,7 @@
+# Run it Live!
+
+For a live Brainf--k interpreter, check out the following page on the NERDfirst website: https://resources.nerdfirst.net/brainfuck
+
 # About this Code
 
 The code in this repository is part of a tutorial series on **0612 TV** concerning the **Brainf--k** programming language, hosted on YouTube. It consists of the following videos.
