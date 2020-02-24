@@ -23,7 +23,7 @@ while prgPos < len(prg):
 		
 	elif prg[prgPos] == "+":
 		mem[memPos] += 1
-		if mem[memPos] >= 255:
+		if mem[memPos] > 255:
 			mem[memPos] = 0
 		
 	elif prg[prgPos] == "-":
